@@ -1,1 +1,7 @@
 # Yes_Bank_Prices_Prediction-Project
+In this project, exploratory data analysis, visualization, regression models with different types and interesting insights of the data have been performed. This dataset has around 185 observations in it with 5 columns. Fundamental Analysis involves analyzing the company’s future profitability on the basis of its current business environment and financial performance. Technical Analysis, on the other hand, includes reading the charts and using statistical figures to identify the trends in the stock market. The will be on the technical analysis part.
+As a first step, the data as loaded the data and mounted the drive. After mounting the drive, important libraries such as numpy, pandas, seaborn, matplotlib and also all regressions model libraries with their metrics were imported, which are useful for our analysis.
+
+Exploration our data was performed by checking all the necessary parameters like shape, head, tail, information of the columns and their datatypes and description of data like mean, min and max. Exploratory data analysis, normalization, lag creation, preparation of the data and two types of splits were performed.
+
+Finally, the data was fit  using various supervised regression algorithms like Linear Regression, Ridge and Lasso Techniques, Random Forest, XG boost, Gradient, KNN, Support Vector machines, Arima and Sarima. All the performance metrics of these models were compared against each other and the best model was used to predict the stock price.
